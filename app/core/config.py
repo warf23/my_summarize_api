@@ -1,6 +1,7 @@
 # app/core/config.py
 import os
-from pydantic import BaseSettings
+from pydantic_settings import BaseSettings
+
 
 class Settings(BaseSettings):
   groq_api_key: str
