@@ -7,3 +7,4 @@ validators
 pydantic>=2.0
 pydantic-settings>=2.0
 youtube-transcript-api
+pytube
