@@ -2,7 +2,10 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.api.endpoints import summarize
-
+import logging
+# Configure logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 app = FastAPI()
 
 # Add CORS middleware
